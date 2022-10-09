@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>JS Fundamentals</title>
+
+        <script>
+            // Cambiar NUMERO a constante para ejecutar el
+            // ejercicio ./exercises/e-NUMERO.js
+            
+            const ejercicio = 1; 
+        </script>
+    </head>
+    <body>
+
+    <script>
+        // NO TOCAR SCRIPT
+        const cargar = (n) => document.write(`<script src="exercises/e-${n}.js"><\/script>`)
+
+        ejercicio &&
+        cargar(ejercicio) && 
+        console.log(`--- EJERCICIO ${ejercicio}`)
+    </script>
+    </body>
+</html>
