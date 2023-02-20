@@ -30,7 +30,7 @@ CÓDIGO
 Modifica la siguiente línea para imprimir 'Hola Mundo'
 */
 
-console.log();
+console.log("Hola Mundo");
 
 /* -- NOTA: 
 
