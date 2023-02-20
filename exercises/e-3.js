@@ -43,7 +43,7 @@ user = 35;
 Descomenta la siguiente linea y comprueba la salida en consola.
 */
 
-// console.log(user);
+console.log(user);
 
 // Podemos declarar (let acceso) y asignar valores (= true) en la misma sentencia:
 
@@ -56,14 +56,14 @@ let acceso = true;
 Descomenta la siguiente linea y haz los cambios para que desaparezca el error y se asigne el nuevo valor "Feliciano" a user.
 */
 
-// let user = "Feliciano"; 
+ let nombre = "Feliciano" ; 
 
 /* ---- E3.3.1 
 
 Ahora escribe la sentencia para imprimir el nuevo valor de user por consola.
 
 */ 
-
+console.log(nombre);
 // Podemos declarar también nombres de valor CONSTANTE usando la PALABRA RESERVADA const. Las CONSTANTES son nombre que no pueden cambiar su primer valor asignado. Por este motivo Javascript obliga a asignar un valor en la misma sentencia de las declaraciones de constante o lanzará un error. Así evita que se asigne por defecto undefined para siempre.
 
 /* ---- E.3.4.
@@ -71,8 +71,8 @@ Ahora escribe la sentencia para imprimir el nuevo valor de user por consola.
 Descomenta las 2 siguientes lineas de código y revisa en consola el error. Después asígnale en la misma sentencia de la declaración el valor de tipo String que quieras. Comprueba que el error desaparece y que se imprime el valor asignado.
 */ 
 
-// const equipo;
-// console.log(equipo);
+ const equipo = 'Team';
+ console.log(equipo);
 
 /* ---- E3.5 
 
@@ -81,22 +81,22 @@ Descomenta las siguiente lineas de código y corrige los errores para que se imp
 - No puedes borrar ni agregar sentencias completas.
 - No puedes tocar las lineas de console.log
 - No puedes tocar, cambiar, agregar ningún operador
-- Sólo puedes modificar PALABRAS RESERVADAS, NOMBRES o VALORES ASIGNADOS en las sentencias con declaraciones y/o asignaciones.
+- Sólo puedes modificar PALABRAS RESERVADAS, NOMBRES o VALORES ASIGNADOS en las sentencias con declaraciones y/o asignaciones.*/
 
 
-// const numero;
-// let numero = 1;
-// console.log(numero);
-// numero = 3
-// const numero2 = 2;
-// console.log(numero2)
-// console.log(numero-1)
-// let numero2 = numero2 + 2;
-// console.log(numero)
-// const const = 4
-// console.log(++numero4)
+ let numero = 1;
+ let numero3 = 2 + numero;
+ console.log(numero);
+ numero = 4
+ let numero2 = numero -2;
+ console.log(numero2)
+ console.log(numero-1)
+ let numero5 = numero2 + 3;
+ console.log(numero)
+ let numero4 = 4
+ console.log(++numero4)
 
-// ** Se han incluido algunos operadores nuevos como -, +, ++ que entenderemos en un futuro. Si no conoces como afectan al resultado trata de averiguarlo mirando las salidas. Recuerda que no puedes tocar ningún operador. 
+/* Se han incluido algunos operadores nuevos como -, +, ++ que entenderemos en un futuro. Si no conoces como afectan al resultado trata de averiguarlo mirando las salidas. Recuerda que no puedes tocar ningún operador. */
 
 /* -- NOTA: 
 

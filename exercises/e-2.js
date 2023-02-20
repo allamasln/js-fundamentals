@@ -85,7 +85,7 @@ console.log("-");
 Modifica ahora el siguiente console.log para imprimir el caracter "
 */
 
-console.log();
+console.log('"');
 
 
 /* ---- E2.3. 
@@ -93,7 +93,7 @@ console.log();
 Imprimir ahora el caracter '
 */
 
-console.log();
+console.log("'");
 
 
 /* -- NOTA: 
