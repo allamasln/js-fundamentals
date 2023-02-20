@@ -86,17 +86,17 @@ Descomenta las siguiente lineas de código y corrige los errores para que se imp
 - Sólo puedes modificar PALABRAS RESERVADAS, NOMBRES o VALORES ASIGNADOS en las sentencias con declaraciones y/o asignaciones. */
 
 
-const numero = 4;
-let numero1 = 1;
-console.log(numero1);
-numero1 = 3
+const numero0 = 0;
+let numero = 1;
+console.log(numero);
+numero = 4
 const numero2 = 2;
 console.log(numero2)
-console.log(numero - 1)
-let numero5 = numero2 + 2;
+console.log(numero-1)
+let numero4 = numero2 + 2;
 console.log(numero)
-const cuatro = 4
-console.log(++numero5)
+numero4 = 4
+console.log(++numero4)
 
 /** Se han incluido algunos operadores nuevos como -, +, ++ que entenderemos en un futuro. Si no conoces como afectan al resultado trata de averiguarlo mirando las salidas. Recuerda que no puedes tocar ningún operador. 
 
