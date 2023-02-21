@@ -1,0 +1,1 @@
+https://github.com/allamasln/js-fundamentals/blob/main/exercises/e-4.js
